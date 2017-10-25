@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: helvetica;
+}
+
+.App {
+  position:relative;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+.chart-container{
+  position:relative;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+.counter {
+  font-size: 38px;
+  color: white;
+  font-weight: 100;
+}
+
+.forward-container {
+  position: absolute;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    height: 100%;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.other-container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  margin-top: 11px;
+  top: 110;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+p {
+    margin: 0px;
+    color: white;
+    font-weight: 100;
+
+}
+
+path.recharts-rectangle {
+  color: red !important;
+}
