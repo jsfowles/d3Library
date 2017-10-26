@@ -45,7 +45,7 @@ class App extends Component {
                 fill="#1994F0"
               />
             </BarChart>
-            <h4>Forward</h4>
+
 
           </div>
 
@@ -75,9 +75,12 @@ class App extends Component {
                 rx={20}
               />
             </BarChart>
-            <h4>TRADTITIONAL <br/> DOCTOR</h4>
 
           </div>
+        </div>
+        <div clasName="labels">
+          <p>Forward</p>
+          <p>TRADITIONAL DOCTOR</p>
         </div>
       </div>
     );

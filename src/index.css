@@ -61,3 +61,7 @@ p {
 path.recharts-rectangle {
   color: red !important;
 }
+
+.labels {
+  color: black;
+}
