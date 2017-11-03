@@ -10,7 +10,6 @@ body {
   flex-direction: row;
   align-items: flex-end;
   justify-content: center;
-  margin-top: 10%;
 }
 
 .chart-container{
@@ -37,6 +36,13 @@ body {
     width: 50%;
     align-items: center;
     justify-content: center;
+
+    p {
+        margin: 0px;
+        color: white;
+        font-weight: 100;
+
+    }
 }
 
 .other-container {
@@ -44,24 +50,71 @@ body {
   display: flex;
   flex-direction: column;
   z-index: 1;
-  margin-top: 11px;
+  margin-top: 12px;
   top: 110;
   width: 50%;
   align-items: center;
   justify-content: center;
+
+  p {
+      margin: 0px;
+      color: white;
+      font-weight: 100;
+
+  }
 }
 
-p {
-    margin: 0px;
-    color: white;
-    font-weight: 100;
+.other-container-right {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  margin-top: -2px;
+  top: 110;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
 
+  p {
+      color: white;
+      font-weight: 100;
+
+  }
 }
 
-path.recharts-rectangle {
-  color: red !important;
+ .line {
+   width: 1px;
+   height: 575px;
+   border-left: 1px solid #E8E8E8;
+ }
+
+.left {
+ margin-left: 125px;
+ height: 100%;
+}
+
+img {
+  height: 13px;
+}
+
+.img-container {
+  margin-top: 14px;
+  width: 50%;
+}
+
+.right {
+  margin-right: 125px;
+  height: 100%;
 }
 
 .labels {
-  color: black;
+  display: flex;
+  width: 100%;
+  color: #6D6D6D;
+
+  p {
+    font-size: 14px;
+    width: 50%;
+  }
+
 }
