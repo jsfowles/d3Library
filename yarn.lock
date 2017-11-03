@@ -5364,11 +5364,23 @@ rc@^1.0.1, rc@^1.1.6, rc@^1.1.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
+react-count-to@^0.8.1:
+  version "0.8.1"
+  resolved "https://registry.yarnpkg.com/react-count-to/-/react-count-to-0.8.1.tgz#7314bbaec2404fac2bc31cde85379efe9370d3aa"
+  dependencies:
+    prop-types "^15.5.8"
+
 react-countup@^2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/react-countup/-/react-countup-2.3.0.tgz#c9acd9447609d581186240c8654c2ef0e40667ed"
   dependencies:
     countup.js "^1.8.5"
+
+react-delay@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/react-delay/-/react-delay-0.1.0.tgz#d421613190349a0ff7f73efa5a77502b581446bf"
+  dependencies:
+    prop-types "^15.6.0"
 
 react-dev-utils@^4.1.0:
   version "4.1.0"

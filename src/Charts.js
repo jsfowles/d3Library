@@ -2,6 +2,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import CountUp from 'react-countup';
+import Delay from 'react-delay';
 import {BarChart, Bar, Rectangle} from 'recharts';
 import Logo from './logo.png';
 
@@ -38,18 +39,21 @@ const Charts = () => (
               fill="#1994F0"
               ry={20}
               rx={20}
+              animationDuration={800}
             />
           </BarChart>
 
         </div>
         <div className="forward">
           <div className="forward-container">
-            <CountUp className="counter"
-              useEasing={false}
-              duration={1}
-              start={0}
-              end={38}
-            />
+            <Delay wait={800} >
+              <CountUp className="counter"
+                useEasing={false}
+                duration={2}
+                start={0}
+                end={38}
+              />
+            </Delay>
             <p>minutes</p>
           </div>
 
@@ -57,16 +61,14 @@ const Charts = () => (
             width={150}
             height={170}
             data={data}
-            radius={20}
-
           >
             <Bar className="rounded"
               shape={CustomBar}
               barSize={120}
               dataKey="forward"
-
+              animationBegin={400}
+              animationDuration={800}
               fill="#6D6D6D"
-
             />
           </BarChart>
         </div>
@@ -85,12 +87,14 @@ const Charts = () => (
       <div className="chart-container">
         <div className="forward">
           <div className="forward-container">
-            <CountUp className="counter"
-              useEasing={false}
-              duration={1}
-              start={0}
-              end={60}
-            />
+            <Delay wait={1200} >
+              <CountUp className="counter"
+                useEasing={false}
+                duration={3}
+                start={0}
+                end={60}
+              />
+            </Delay>
             <p>minutes</p>
           </div>
 
@@ -99,13 +103,14 @@ const Charts = () => (
             height={340}
             data={data}
             radius={20}
-
           >
             <Bar className="rounded"
               shape={CustomBar}
               barSize={120}
               dataKey="forward"
               fill="#1994F0"
+              animationBegin={800}
+              animationDuration={1200}
             />
           </BarChart>
 
@@ -114,13 +119,15 @@ const Charts = () => (
 
         <div className="other">
           <div className="other-container">
-            <CountUp className="counter"
-              useEasing={false}
-              duration={1}
-              start={0}
-              end={15}
+            <Delay wait={2000} >
 
-            />
+              <CountUp className="counter"
+                useEasing={false}
+                duration={1}
+                start={0}
+                end={15}
+              />
+            </Delay>
           <p>minutes</p>
           </div>
 
@@ -134,8 +141,8 @@ const Charts = () => (
               shape={CustomBar}
               dataKey="other"
               fill="#6D6D6D"
-              ry={20}
-              rx={20}
+              animationBegin={1500}
+              animationDuration={800}
             />
           </BarChart>
 
