@@ -271,23 +271,7 @@ Then add the block below to your `launch.json` file and put it inside the `.vsco
 ```
 >Note: the URL may be different if you've made adjustments via the [HOST or PORT environment variables](#advanced-configuration).
 
-Start your app by running `npm start`, and start debugging in VS Code by pressing `F5` or by clicking the green debug icon. You can now write code, set breakpoints, make changes to the code, and debug your newly modified code—all from your editor.
-
-### WebStorm
-
-You would need to have [WebStorm](https://www.jetbrains.com/webstorm/) and [JetBrains IDE Support](https://chrome.google.com/webstore/detail/jetbrains-ide-support/hmhgeddbohgjknpmjagkdomcpobmllji) Chrome extension installed.
-
-In the WebStorm menu `Run` select `Edit Configurations...`. Then click `+` and select `JavaScript Debug`. Paste `http://localhost:3000` into the URL field and save the configuration.
-
->Note: the URL may be different if you've made adjustments via the [HOST or PORT environment variables](#advanced-configuration).
-
-Start your app by running `npm start`, then press `^D` on macOS or `F9` on Windows and Linux or click the green debug icon to start debugging in WebStorm.
-
-The same way you can debug your application in IntelliJ IDEA Ultimate, PhpStorm, PyCharm Pro, and RubyMine. 
-
-## Formatting Code Automatically
-
-Prettier is an opinionated code formatter with support for JavaScript, CSS and JSON. With Prettier you can format the code you write automatically to ensure a code style within your project. See the [Prettier's GitHub page](https://github.com/prettier/prettier) for more information, and look at this [page to see it in action](https://prettier.github.io/prettier/).
+Start your app by running `npm start`, and start debugging in VS Code by pressing `F5` or by clicking the green debug icon. , and look at this [page to see it in action](https://prettier.github.io/prettier/).
 
 To format our code whenever we make a commit in git, we need to install the following dependencies:
 
